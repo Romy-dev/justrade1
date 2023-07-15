@@ -40,16 +40,6 @@ ul {
 a {
     color: #2C86D2;
 }
-
- a:hover {
-    border-radius: 15px;
-    box-sizing: 200px;
-    height: 100%;
-    width: 200px;
-    background-color: #2C86D2;
-    color: white;
-}
-
 .haut {
     margin: 0px;
     width: 100%;
@@ -601,8 +591,6 @@ button[type="submit"]:hover {
     align-items: center;
     font-size: 0px;
     justify-content: center;
-  
-  
   }
   
   .social-icons i {
@@ -690,6 +678,15 @@ button[type="submit"]:hover {
     .footer-section {
       width: 30%;
     }
+    
+a:hover {
+  border-radius: 15px;
+  box-sizing: 200px;
+  height: 100%;
+  width: 200px;
+  background-color: #2C86D2;
+  color: white;
+}
     
 }
 @media only screen and (max-width:800px) {
