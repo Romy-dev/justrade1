@@ -35,7 +35,7 @@ const observer = new IntersectionObserver(handleInterset, options) ;
       behavior: 'smooth'
     });
   });
-  const boxe = document.querySelector('.boxe');
+ /* const boxe = document.querySelector('.boxe');
   const animatedText = boxe.querySelector('.animated-text');
   
   boxe.addEventListener('mouseenter', () => {
@@ -44,7 +44,7 @@ const observer = new IntersectionObserver(handleInterset, options) ;
   
   boxe.addEventListener('mouseleave', () => {
     animatedText.style.animation = '';
-  });
+  });*/
   
   
   
